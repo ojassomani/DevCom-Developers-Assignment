@@ -1,0 +1,119 @@
+main {
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    background-color: #440065;
+    background-image: url(purple-370132_1920.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .completion h1 {
+font-size: 56px;
+line-height: 68px;
+}
+main p {
+    font-size: 48px;
+    line-height: 60px;
+}
+main .completion {
+    margin-right: 20px;
+}
+main .declaration {
+    margin-left: 20px;
+}
+.index-category {
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.index-category p {
+    color:white;
+    text-align: center;
+    padding-bottom: 40px;
+    flex-basis: 100%;
+    text-transform: uppercase;
+    font-size: 50px;
+    word-spacing: 10px;
+}
+
+.index-category-box {
+    width: 400px;
+    height: 400px;
+    background-color: #440065;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.index-category-box:nth-child(2){
+    background-image: url(gaming.webp);
+}
+.index-category-box:nth-child(2):hover{
+    background-image: url(gamingbw1.jpg);
+    transition: ease-in-out 300ms;
+    transform: scale(1.1);
+}
+.index-category-box:nth-child(3){
+    background-image: url(music.webp);
+}
+.index-category-box:nth-child(3):hover{
+    background-image: url(musicbw.jpg);
+    transition: ease-in-out 300ms;
+    transform: scale(1.1);
+}
+.index-category-box:nth-child(4){
+    background-image: url(coding.jpg);
+}
+.index-category-box:nth-child(4):hover{
+    background-image: url(codingbw.jpg);
+    transition: ease-in-out 300ms;
+    transform: scale(1.1);
+}
+.index-category-box h3 {
+    margin-top: 180px;
+    font-size: 42px;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0px 2px 10px #000;
+}
+label {
+    font-size: 30px;
+    color: orange;
+    text-shadow: 0px 2px 10px #000;
+}
+input[type="submit"] {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 2px 10px #000;
+}
+input[type="submit"]:hover {
+    color: red;
+    transition: ease-in-out 300ms;
+}
+.contact-main h2{
+    font-size: 40px;
+    text-shadow: 0px 2px 10px #000;
+    margin: 20px;
+}
+input#name {
+    color: white;
+}
+input#message {
+    color: white;
+}
+input#subject {
+    color: white;
+}
+input#email {
+    color: white;
+}
